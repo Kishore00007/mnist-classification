@@ -24,6 +24,10 @@ Build a CNN model.
 Compile and fit the model and then predict.
 
 ## PROGRAM
+DEVELOPED BY: KISHORE KUMAR S
+
+REG NO: 212221240043
+
 ```
 import numpy as np
 from tensorflow import keras
@@ -125,19 +129,18 @@ plt.imshow(img_28_gray_inverted_scaled.reshape(28,28),cmap='gray')
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-![pic 2](https://github.com/HariniBaskar/mnist-classification/assets/93427253/1d272f4a-91b4-439f-a305-cdb7531868df)
-
+![](trainingloss.png)
 ### Accuracy, Validation Accuracy Vs Iteration
-![pic1](https://github.com/HariniBaskar/mnist-classification/assets/93427253/8b3e8b9e-c0bb-4963-8fdc-22dc0d238776)
+![](accuracy.png)
 
 ### Classification Report
-![pic 3](https://github.com/HariniBaskar/mnist-classification/assets/93427253/f3bbe2b3-3ebe-4743-99ad-614670b70858)
+![](classificationreport.png)
 
 ### Confusion Matrix
-![pic 4](https://github.com/HariniBaskar/mnist-classification/assets/93427253/146207ad-39c3-4fda-acea-de023f4d55d3)
+![](matrix.png)
 
 ### New Sample Data Prediction
-![pic 5](https://github.com/HariniBaskar/mnist-classification/assets/93427253/ca655447-8a8c-4866-896b-bef8a9e57351)
+![](newsample.png)
 
 ## RESULT
 A convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is developed sucessfully.
